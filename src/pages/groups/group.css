@@ -1,0 +1,47 @@
+/* group.css */
+
+/* Estilo para el DataGrid */
+.dx-datagrid {
+    border: 1px solid #ccc; /* Borde alrededor de la tabla */
+}
+
+/* Estilo para las celdas de encabezado */
+.dx-datagrid-header {
+    background-color: #3498db; /* Color de fondo del encabezado */
+    color: #fff; /* Color del texto en el encabezado */
+    font-weight: bold; /* Texto en negrita en el encabezado */
+}
+
+/* Estilo para las celdas de datos */
+.dx-datagrid-data {
+    background-color: #f2f2f2; /* Color de fondo de las celdas de datos */
+    color: #333; /* Color del texto en las celdas de datos */
+}
+
+/* Estilo para las filas alternas (si se aplican filas alternas) */
+.dx-row-alt {
+    background-color: #e0e0e0; /* Color de fondo de las filas alternas */
+}
+
+/* Estilo para las celdas de filtro */
+.dx-datagrid-filter-row .dx-row {
+    background-color: #f7dc6f; /* Color de fondo de la fila de filtro */
+}
+
+/* Estilo para el cuadro de búsqueda (filtro) */
+.dx-datagrid-filter-row .dx-filter-row-action {
+    background-color: #f7dc6f; /* Color de fondo del cuadro de búsqueda (filtro) */
+    color: #333; /* Color del texto en el cuadro de búsqueda */
+}
+
+/* Estilo para el botón de búsqueda (filtro) */
+.dx-datagrid-filter-row .dx-apply-button {
+    background-color: #3498db; /* Color de fondo del botón de búsqueda (filtro) */
+    color: #fff; /* Color del texto en el botón de búsqueda */
+}
+
+/* Estilo para las celdas de filtro activas */
+.dx-datagrid-filter-row .dx-header-filter.dx-filter-active {
+    background-color: #e74c3c; /* Color de fondo de las celdas de filtro activas */
+    color: #fff; /* Color del texto en las celdas de filtro activas */
+}
